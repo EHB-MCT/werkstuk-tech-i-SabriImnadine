@@ -1,1 +1,114 @@
-Zet hier de arduino code
+const int echo = 13;
+
+const int trig = 12;
+
+ 
+
+const int LED = 8;
+const int LED2 = 7;
+const int LED3 = 6;
+const int LED4 = 5;
+const int LED5 = 4;
+
+ 
+
+int duration = 0;
+
+int distance = 0;
+
+
+ 
+
+void setup() {
+
+  pinMode (trig, OUTPUT); 
+
+  pinMode (echo, INPUT);
+  pinMode (LED, OUTPUT);
+  pinMode (LED2, OUTPUT);
+  pinMode (LED3, OUTPUT);
+  pinMode (LED4, OUTPUT);
+  pinMode (LED5, OUTPUT);
+
+  Serial.begin(9600); 
+  
+
+  
+ for(int value = 0; value<=255; value++) {
+  analogWrite(LED, value);
+  delay(30);
+ }
+
+ delay(50);
+
+ for(int value = 255; value>=0; value--) {
+   analogWrite(LED2, value);
+   analogWrite(LED3, value);
+   analogWrite(LED4, value);
+   analogWrite(LED5, value);
+ delay(30);
+ }
+ delay(50);
+
+}
+
+ 
+
+void loop() {
+
+  digitalWrite (trig, HIGH);
+
+  delayMicroseconds (1000);
+
+  digitalWrite (trig, LOW);
+  
+
+
+  duration = pulseIn(echo, HIGH);
+
+  distance = (duration/2) /28.5;
+
+  Serial.print(distance);
+ 
+
+   if (distance <= 7){
+    
+
+    digitalWrite(LED, HIGH); 
+  delay(200);
+  digitalWrite (LED2, HIGH);
+  delay(200);
+  digitalWrite (LED3, HIGH);
+  delay(200);
+  digitalWrite (LED4, HIGH);
+  delay(200);
+  digitalWrite (LED5, HIGH);
+  delay(200);
+    digitalWrite (LED, LOW);
+  delay(200);
+  digitalWrite (LED2, LOW);
+  delay(200);
+  digitalWrite (LED3, LOW);
+  delay(200);
+  digitalWrite (LED4, LOW);
+  delay(200);
+  delay(200);
+
+
+   }else {
+
+        digitalWrite (LED, LOW);
+  delay(200);
+  digitalWrite (LED2, LOW);
+  delay(200);
+  digitalWrite (LED3, LOW);
+  delay(200);
+  digitalWrite (LED4, LOW);
+  delay(200);
+  digitalWrite (LED5, LOW);
+  delay(200);
+  
+
+   }
+
+}
