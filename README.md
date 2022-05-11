@@ -26,7 +26,7 @@ Vul volgende elementen in, deze zullen dezelfde zijn voor iedereen in de groep. 
 10. (Return) Terug onderwater wordt het nieuws verspreid.
 11. (New life) !! Iedereen weet nu dat ze niet enige zijn, Poseidon wordt afgezet, Prins  wordt  de nieuwe ruler.I
 12. (Resolution) Er zijn geen classes meer, iedereen is gelijk.
-13. (new status quo)
+13. (new status quo) Nu dat ze weten dat er leven boven water is. Zijn ze van plan om op zoek te gaan naar hun
 
 ## Experience
 
