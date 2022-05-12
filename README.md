@@ -32,13 +32,13 @@ Vul volgende elementen in, deze zullen dezelfde zijn voor iedereen in de groep. 
 
 Leg uit hoe je de experience van de gebruiker vormgaf en waar je nog dingen zou toevoegen (licht, geluid, materiaal, etc)
 
-Voor de experience van de gebruiker heb ik er voor gezorgt om Posseidon staf in twee gebroken stukken vormgegeven, om aan te tonen dat hij zijn troon is verloren. Daanarst heb ik een kroon toegevoegd om aan te tonen dat de pris op de troon wordt geplaatst. Voor de volgende keer zou ik 3D materiaal beelden gebruiken om dit in mijn design toe te passen. 
+Voor de experience van de gebruiker heb ik er voor gezorgt om Posseidon staf in twee gebroken stukken uit te beelden, om aan te tonen dat hij zijn troon is verloren. Daanarst heb ik een kroon toegevoegd om aan te tonen dat de pris op de troon wordt geplaatst. Voor de volgende keer zou ik 3D materiaal beelden gebruiken om dit in mijn design toe te passen. 
 
 
 ## Interaction
 
 Leg uit welke interaction je hebt toegevoegd, en hoe je deze duidelijk maakt aan de gebruiker. Voeg toe hoe je deze in de toekomst anders zou aanpakken, of waar je meer duidelijkheid zou creeeren indien nodig.
 
-Voor de interaction van de gebruiker heb ik er voor gezorgt dat dankzij een sensor, wanneer er beweging wordt waargenomen. Er vijf verschillende lampjes een per een aan en uit gaan. Wat ik de volgende keer zou doen is mijn design uitbreiden en geluid toevoegen wanneer de lampjes aan branden. Zodat dit een betere sfeer kan weergeven.
+Voor de interaction van de gebruiker heb ik er voor gezorgt dat dankzij een sensor, wanneer er beweging wordt waargenomen. Er vijf verschillende lampjes een per een aan en uit gaan. Wat ik de volgende keer zou doen is mijn design uitbreiden door de senson op Poseidon's hand te plaatsen zodat de interactie duidelijker is voor de gebruiker. Daarnaast zal ik geluid toevoegen wanneer de lampjes aan het branden zijn. Ook zal ik nog enkele delen van mijn panelen verbranden om een caothische sfeer van oorlog weer te geven. 
 
 
